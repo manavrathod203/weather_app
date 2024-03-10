@@ -71,7 +71,7 @@ function displayForecast(data) {
         const iconUrl = `https://openweathermap.org/img/wn/${iconCode}.png`;
 
 
-        const hourlyItemHtml = `<div class="bg-zinc-700 p-5 rounded-md flex flex-col items-center justify-center">
+        const hourlyItemHtml = `<div class="bg-[#61876E] p-5 rounded-md flex flex-col items-center justify-center">
                         <p class="whitespace-nowrap">${hour}:00</p>
                         <img src="${iconUrl}" alt="" class="w-16">
                         <p class="whitespace-nowrap">${temperature} °C</p>
